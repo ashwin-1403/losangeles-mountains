@@ -1,0 +1,470 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato" !important;
+}
+
+/* OSWAL FONT */
+/* font-family: "Oswald", sans-serif; */
+.oswalFont {
+  font-family: "Oswald", sans-serif;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400 !important;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700 !important;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900 !important;
+}
+
+/* Banner Css */
+.parallelEffect {
+  background-image: url("./Assets/headar-banner.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headerSection {
+  padding: 20px;
+}
+
+.nav-item a {
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 24px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+button.navbar-toggler {
+  box-shadow: none;
+  border: 0;
+}
+
+button.navbar-toggle:focus,
+button:focus:not(:focus-visible) {
+  box-shadow: none !important;
+  outline: none;
+}
+
+.navbar-collapse .nav-item {
+  padding: 0 20px;
+}
+
+.secondHeader a.nav-link {
+  color: #1f2d49;
+}
+
+/* History Css */
+.carouselSection {
+  padding: 0 !important;
+}
+
+.carouselSection .carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carouselSection .carousel-caption {
+  bottom: unset;
+  top: 7%;
+  text-align: left;
+}
+
+.carouselSection .carousel-caption h1 {
+  font-size: 150px;
+  font-weight: 700;
+  position: relative;
+}
+
+.carouselSection .carousel-caption .firstCarouselHeading::after {
+  content: "History";
+  font-size: 30px;
+  position: absolute;
+  bottom: 55px;
+  left: 16%;
+}
+
+.carouselSection .carousel-caption .secondCarouselHeading::after {
+  content: "Team";
+  font-size: 30px;
+  position: absolute;
+  bottom: 55px;
+  left: 16%;
+}
+
+.carouselSection .carousel-caption p {
+  font-size: 24px;
+  color: #000;
+  padding-left: 80px;
+}
+
+.carouselSection .carousel-item {
+  height: calc(100vh + 0vh);
+}
+
+.bgCarouselOne {
+  background-image: url("./Assets/history.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+.bgCarouselSecond {
+  background-image: url("./Assets/footer.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+.carouselSection .carousel-indicators {
+  background-color: #465678a3;
+  margin-bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+}
+
+.carouselSection .carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  /* flex: 0 1 auto; */
+  width: 230px;
+  height: 140px;
+  padding: 0;
+  margin-right: 5px;
+  margin-left: 5px;
+  text-indent: unset;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 0;
+  border-bottom: 0;
+  opacity: 1;
+  transition: opacity 0.6s ease;
+}
+
+.carouselSection .carousel-indicators img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Team Css */
+
+.teamSection .climbContent {
+  display: flex;
+  align-items: center;
+}
+
+.teamSection .container-fluid {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.teamSection .climbContent .climbHeading {
+  font-size: 150px;
+  font-weight: 700;
+  position: relative;
+  color: #a8a8a8;
+  min-width: 320px;
+}
+
+.teamSection .climbContent .climbHeading::after {
+  content: "CLIMB";
+  font-size: 30px;
+  position: absolute;
+  bottom: 55px;
+  left: 56%;
+  color: #1f2d49;
+}
+
+.teamSection .climgTabs {
+  background-color: #37445c85;
+}
+
+.teamSection .climgTabs nav {
+  max-width: 1256px;
+  width: 100%;
+  margin: auto;
+}
+
+.teamSection .climgTabs .nav-link {
+  color: #1f2d49;
+}
+
+.nav-tabs {
+  border: 0 !important;
+}
+
+.nav-tabs .nav-link {
+  border: 0 !important;
+  padding: 10px;
+}
+
+.teamSection .climgTabs .nav-link.active {
+  border-radius: 0;
+  text-decoration: underline;
+}
+
+.teamSection .climgTabs .nav-link:hover {
+  border: 0;
+  border-bottom: 1px solid #1f2d49;
+}
+
+.bgTabOne {
+  background-image: url("./Assets/footer.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgTabTwo {
+  background-image: url("./Assets/history.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.timeContent {
+  width: 400px;
+  background: #fff;
+  padding: 20px 50px;
+  margin-top: 60px;
+}
+
+.timeContent .d-flex {
+  justify-content: space-between;
+}
+
+.timeContent .d-flex p {
+  margin-bottom: 5px;
+}
+
+/* Accordions Css */
+.accordionSection .accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+  outline: none !important;
+  background-color: #fff !important;
+}
+
+.accordionSection .accordion-body {
+  padding: 0;
+}
+
+.accordionSection .accordion-body .bgTabOne,
+.accordionSection .accordion-body .bgTabTwo {
+  min-height: calc(100vh - 40vh);
+}
+
+/* footer Css */
+.footer {
+  background-color: #1f2d4994;
+  padding: 15px;
+}
+
+.footer .footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .footerContent .copyrightText {
+  color: #364461;
+  font-weight: 500;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+  .navbar-collapse {
+      background-color: #1f2d4973;
+  }
+
+  .navbar-collapse .nav-item a {
+      font-size: 24px;
+  }
+
+  .carouselSection .carousel-indicators [data-bs-target] {
+      height: auto;
+  }
+
+  .carouselSection .carousel-indicators {
+      padding: 10px;
+  }
+
+  .teamSection .climbContent .climbHeading {
+      font-size: 100px;
+  }
+
+  .teamSection .climbContent .climbHeading::after {
+      font-size: 20px;
+      bottom: 36px;
+      left: 37%;
+  }
+
+  .teamSection .climbContent {
+      flex-direction: column;
+  }
+
+  .carouselSection .carousel-caption {
+      top: 2%;
+  }
+
+  .carouselSection .carousel-caption h1 {
+      font-size: 100px;
+  }
+
+  .carouselSection .carousel-caption .firstCarouselHeading::after {
+      bottom: 35px;
+      left: 36%;
+  }
+
+  .carouselSection .carousel-caption p {
+      font-size: 20px;
+      padding-left: 0;
+      color: #fff;
+  }
+
+  .carouselSection .carousel-caption .secondCarouselHeading::after {
+      font-size: 25px;
+      bottom: 35px;
+      left: 42%;
+  }
+
+  .climgTabs {
+      display: none;
+  }
+
+  /* Header */
+  .parallelEffect {
+      min-height: calc(100vh - 9vh);
+  }
+
+  .carouselSection .carousel-item {
+      height: calc(100vh - 9vh);
+  }
+
+  /* Footer */
+  .footer .footerContent {
+      flex-direction: column;
+  }
+
+  .footer .footerLogo {
+      padding: 20px;
+  }
+
+  .timeContent {
+      width: 100%;
+      padding: 20px;
+  }
+}
+
+@media (min-width: 766px) and (max-width: 768px) {
+  .carouselSection .carousel-caption .firstCarouselHeading::after {
+      bottom: 59px;
+      left: 27% !important;
+  }
+
+  .carouselSection .carousel-caption .secondCarouselHeading::after {
+      bottom: 59px;
+      left: 30% !important;
+  }
+}
+
+@media (min-width: 767px) {
+  .accordionSection {
+      display: none;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .teamSection .climgTabs nav {
+      max-width: 670px;
+  }
+
+  .carouselSection .carousel-caption .firstCarouselHeading::after {
+      bottom: 59px;
+      left: 23%;
+  }
+
+  .carouselSection .carousel-caption .secondCarouselHeading::after {
+      bottom: 59px;
+      left: 25%;
+  }
+
+  .carouselSection .carousel-indicators [data-bs-target] {
+      height: auto;
+  }
+
+  .bgTabOne {
+      min-height: calc(100vh - 11vh);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .teamSection .climgTabs nav {
+      max-width: 936px;
+  }
+
+  .headerSection .nav-item a {
+      padding: 10px 0;
+  }
+
+  .carouselSection .carousel-caption {
+      top: 0;
+  }
+
+  .carouselSection .carousel-caption h1 {
+      font-size: 120px;
+  }
+
+  .carouselSection .carousel-caption .firstCarouselHeading::after {
+      bottom: 45px;
+      font-size: 25px;
+      left: 16%;
+  }
+
+  .carouselSection .carousel-caption .secondCarouselHeading::after {
+      bottom: 45px;
+      font-size: 25px;
+      left: 18%;
+  }
+
+  .bgTabOne,
+  .bgTabTwo {
+      min-height: 80vh;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .teamSection .climgTabs nav {
+      max-width: 1095px;
+  }
+
+  .carouselSection .carousel-caption .firstCarouselHeading::after {
+      left: 16%;
+  }
+
+  .carouselSection .carousel-caption .secondCarouselHeading::after {
+      left: 18%;
+  }
+
+  .bgTabOne,
+  .bgTabTwo {
+      min-height: 85vh;
+  }
+}
